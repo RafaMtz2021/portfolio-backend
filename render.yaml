@@ -1,7 +1,7 @@
 services:
   - type: web
     name: directus
-    env: docker
+    env: image
     image:
       url: directus/directus:11.6.1
     plan: free
