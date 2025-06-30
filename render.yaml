@@ -3,10 +3,10 @@ services:
     name: directus
     env: image
     image:
-      url: directus/directus:11.6.1
+      url: directus/directus:11.9.1
     plan: free
     autoDeploy: true
-    region: oregon
+    region: frankfurt
     envVars:
       - key: DB_CLIENT
         value: pg
