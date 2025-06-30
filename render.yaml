@@ -3,7 +3,7 @@ services:
     name: directus
     env: docker
     image:
-      url: directus/directus:11.6.1  # 🔥 ESTA LÍNEA ES CLAVE
+      url: directus/directus:11.6.1
     plan: free
     autoDeploy: true
     region: oregon
